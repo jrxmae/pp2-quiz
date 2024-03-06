@@ -10,7 +10,3 @@ body {
     background: url(/assets/images/clouds.jpg) no-repeat;
     background-size: cover;
 }
-header a {
-    text-decoration: none;
-    color: black;
-}
