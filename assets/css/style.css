@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Mate+SC&family=Ojuju:wght@200..800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Mate+SC&family=Ojuju:wght@200..800&display=swap');
 
 /* Overrides default styling of the browser */
 * {
@@ -13,4 +13,8 @@ body {
     /* Styling the background image */
     background: url(/assets/images/clouds.jpg) no-repeat;
     background-size: cover;
+}
+div h1 {
+    font-family: 'Graduate', serif;
+    color: whitesmoke;
 }
