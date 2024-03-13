@@ -22,3 +22,7 @@ div h1 {
     color: whitesmoke;
     text-align: center;
 }
+div img {
+    width: 45rem;
+}
+
