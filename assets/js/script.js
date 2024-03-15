@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const quizInstructions = document.getElementById('instructions');
     const quizContainer = document.getElementById('quiz');
     const resultsContainer = document.getElementById('results');
+    const retryButton = document.getElementById('retry');
     const feedbackContainer = document.getElementById('feedback');
 
     let currentQuestionIndex = 0;
@@ -62,6 +63,16 @@ document.addEventListener('DOMContentLoaded', function () {
     // Event listener for the 'challenge' button that will start the quiz once clicked
     challengeButton.addEventListener('click', function () {
         quizInstructions.style.display = 'none';
+        displayQuestion();
+    });
+
+    // An event listener for when the quiz is finished and the user wishes to try again
+    retryButton.addEventListener('click', function () {
+        currentQuestionIndex = 0;
+        score = 0;
+        resultsContainer.textContent = '';
+        quizContainer.style.display = 'block';
+        retryButton.remove();
         displayQuestion();
     });
 })
