@@ -171,3 +171,50 @@ ul{
         line-height: 249px;
     }
 }
+@media screen and (min-width: 1440px) {
+    body {
+        background-size: cover;
+    }
+    #hero img {
+        width: 49rem;
+        margin-top: 90px;
+    }
+    .quiz-name {
+        top: 2%;
+        left: 15%;
+        font-size: 53px;
+    }
+    #instructions {
+        top: 9.5%;
+        left: 23%;
+        right: 23%;
+        font-size: 25px;
+        height: 826px;
+        line-height: 83px;
+    }
+    #quiz {
+        top: 9.5%;
+        left: 23%;
+        right: 327px;
+        height: 825px;
+        font-size: 35px;
+        line-height: 122px;
+        z-index: 3;
+    }
+    #challenge {
+        top: 84%;
+        left: 43%;
+        font-size: 41px;
+    }
+    #again {
+        top: 138%;
+        font-size: 32px;
+    }
+    #results {
+        top: 9.5%;
+        left: 23%;
+        right: 23%;
+        font-size: 133px;
+        line-height: 377px;
+    }
+}

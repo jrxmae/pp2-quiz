@@ -5,7 +5,6 @@
      const quizContainer = document.getElementById('quiz');
      const resultsContainer = document.getElementById('results');
      const againButton = document.getElementById('again');
-     const feedbackContainer = document.getElementById('feedback');
 
      let currentQuestionIndex = 0;
      let score = 0;
