@@ -67,7 +67,7 @@
      challengeButton.addEventListener('click', function () {
          quizInstructions.style.display = 'none';
          displayQuestion();
-     })
+     });
 
      // An event listener for when the quiz is finished and the user wishes to try again
      retryButton.addEventListener('click', function () {
