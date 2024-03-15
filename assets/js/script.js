@@ -1,5 +1,10 @@
 // Event listener for after html page loads
 document.addEventListener('DOMContentLoaded', function () {
+    const challengeButton = document.getElementById('challenge');
+    const quizInstructions = document.getElementById('instructions');
+    const quizContainer = document.getElementById('quiz');
+    const resultsContainer = document.getElementById('results');
+    const feedbackContainer = document.getElementById('feedback');
 
 })
 
