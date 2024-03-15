@@ -51,6 +51,14 @@ document.addEventListener('DOMContentLoaded', function () {
             showResults();
         }
     }
+    /**
+     * This function shows the results to the user after all questions have been answered.
+     */
+    function showResults() {
+        quizContainer.style.display = 'none';
+        resultsContainer.textContent = `Your Score: ${score}/${questions.length}`;
+    }
+
 
 
 
