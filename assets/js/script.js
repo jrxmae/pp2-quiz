@@ -59,9 +59,11 @@ document.addEventListener('DOMContentLoaded', function () {
         resultsContainer.textContent = `Your Score: ${score}/${questions.length}`;
     }
 
-
-
-
+    // Event listener for the 'challenge' button that will start the quiz once clicked
+    challengeButton.addEventListener('click', function () {
+        quizInstructions.style.display = 'none';
+        displayQuestion();
+    });
 })
 
 // Questions, options to choose from and correct answers
