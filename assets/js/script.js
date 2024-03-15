@@ -1,3 +1,8 @@
+// Event listener for after html page loads
+document.addEventListener('DOMContentLoaded', function () {
+
+})
+
 // Questions, options to choose from and correct answers
 let questions = [{
         number: 1,
