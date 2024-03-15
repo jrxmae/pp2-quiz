@@ -90,7 +90,7 @@ ul{
     line-height: 149px;
     background-color: rgba(255, 255,255, 0.4);
 }
-
+/* Media screen for larger mobile phones */
 @media screen and (min-width: 375px) {
     #hero img {
         width: 24rem;
@@ -128,5 +128,46 @@ ul{
         right: 0%;
         font-size: 56px;
         line-height: 188px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #hero img {
+        width: 33rem;
+        margin-top: 58px;
+    }
+    .quiz-name {
+        top: 2%;
+        left: 4%;
+        font-size: 37px;
+    }
+    #instructions {
+        top: 9.5%;
+        left: 16%;
+        right: 16%;
+        height: 554px;
+        line-height: 57px;
+    }
+    #quiz {
+        top: 9.5%;
+        left: 16%;
+        right: 122px;
+        height: 554px;
+        line-height: 100px;
+        z-index: 3;
+    }
+    #challenge {
+        top: 84%;
+        left: 44%;
+    }
+    #again {
+        top: 128%;
+    }
+    #results {
+        top: 9.5%;
+        left: 16%;
+        right: 16%;
+        height: 554px;
+        font-size: 81px;
+        line-height: 249px;
     }
 }
