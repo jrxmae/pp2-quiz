@@ -10,6 +10,8 @@
      let currentQuestionIndex = 0;
      let score = 0;
 
+     retryButton.style.display = 'none';
+
      /**
       * This function displays the question to the user and passes the questions from 'questions' variable.
       */
@@ -61,6 +63,7 @@
      function showResults() {
          quizContainer.style.display = 'none';
          resultsContainer.textContent = `Your Score: ${score}/${questions.length}`;
+         retryButton.style.display = 'block';
      }
 
      // Event listener for the 'challenge' button that will start the quiz once clicked
@@ -75,7 +78,7 @@
          score = 0;
          resultsContainer.textContent = '';
          quizContainer.style.display = 'block';
-         retryButton.remove();
+         retryButton.style.display = 'none'
          displayQuestion();
      });
  });
@@ -138,7 +141,7 @@
      {
          number: 10,
          question: "What was the name of the three-headed dog that guarded the entrance to the underworld?",
-         options: ["Sparkles", "Fluffly", "Cerberus"],
+         options: ["Sparkles", "Fluffy", "Cerberus"],
          answer: "Cerberus",
      },
  ];
