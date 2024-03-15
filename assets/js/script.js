@@ -4,13 +4,11 @@
      const quizInstructions = document.getElementById('instructions');
      const quizContainer = document.getElementById('quiz');
      const resultsContainer = document.getElementById('results');
-     const retryButton = document.getElementById('retry');
+     const againButton = document.getElementById('again');
      const feedbackContainer = document.getElementById('feedback');
 
      let currentQuestionIndex = 0;
      let score = 0;
-
-     retryButton.style.display = 'none';
 
      /**
       * This function displays the question to the user and passes the questions from 'questions' variable.
@@ -55,6 +53,7 @@
              displayQuestion();
          } else {
              showResults();
+
          }
      }
      /**
@@ -63,7 +62,6 @@
      function showResults() {
          quizContainer.style.display = 'none';
          resultsContainer.textContent = `Your Score: ${score}/${questions.length}`;
-         retryButton.style.display = 'block';
      }
 
      // Event listener for the 'challenge' button that will start the quiz once clicked
@@ -72,15 +70,16 @@
          displayQuestion();
      });
 
-     // An event listener for when the quiz is finished and the user wishes to try again
-     retryButton.addEventListener('click', function () {
-         currentQuestionIndex = 0;
-         score = 0;
-         resultsContainer.textContent = '';
-         quizContainer.style.display = 'block';
-         retryButton.style.display = 'none'
-         displayQuestion();
-     });
+      // An event listener for when the quiz is finished and the user wishes to try again
+      againButton.addEventListener('click', function () {
+        currentQuestionIndex = 0;
+        score = 0;
+        resultsContainer.textContent = '';
+        quizContainer.style.display = 'block';
+        againButton.style.display = 'none';
+        displayQuestion();
+    });
+
  });
 
  // Questions, options to choose from and correct answers
