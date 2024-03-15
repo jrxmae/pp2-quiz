@@ -12,26 +12,42 @@
 body {
     /* Styling the background image */
     background: url(/assets/images/clouds.jpg) no-repeat;
-    background-size: cover;
     background-color: rgba(255, 181, 154, 0.604);
     /* Centers everything in the body on the page */
     display: flex;
     justify-content: center;
 }
-div h1 {
+#hero {
     font-family: 'Graduate', serif;
     color: whitesmoke;
     text-align: center;
 }
+#hero img {
+    width: 19rem;
+    margin-top: 160px;
+}
+#instructions {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 28px;
+    text-align: center;
+    left: -3%;
+    font-size: 14px;
+    position: absolute;
+    top: 26%;
+}
+/* Styling the position of the challenge button */
+#challenge {
+    font-family: 'Mate SC', serif;
+    font-size: 22px;
+    position: absolute;
+    top: 67%;
+    left: 30%;
+}
 /* Styling the position and size of the quiz name */
 .quiz-name {
     position: absolute;
-    top: 0%;
+    top: 5%;
     left: 0%;
-    font-size: 20px;
-}
-/* Sizing the hero image */
-div img {
-    width: 19rem;
+    font-size: 31px;
 }
 
