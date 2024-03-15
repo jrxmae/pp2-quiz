@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultsContainer = document.getElementById('results');
     const feedbackContainer = document.getElementById('feedback');
 
+    let currentQuestionIndex = 0;
+    let score = 0;
+
 })
 
 // Questions, options to choose from and correct answers
