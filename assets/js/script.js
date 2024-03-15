@@ -15,6 +15,14 @@ document.addEventListener('DOMContentLoaded', function () {
             function displayQuestion() {
                 const currentQuestion = questions[currentQuestionIndex];
 
+                // Makes previous question disappear to allow for next question to appear
+                quizContainer.innerHTML = '';
+
+                // Shows the question to the user
+                const questionElement = document.createElement('p');
+                questionElement.textContent = `Question ${currentQuestion.number}: ${currentQuestion.question}`;
+                quizContainer.appendChild(questionElement);
+
             })
 
         // Questions, options to choose from and correct answers
