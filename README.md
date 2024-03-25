@@ -88,14 +88,25 @@ You may learn something new along the way. Click [here](https://jrxmae.github.io
 ### Testing using responsive tool
 - Checked to make sure the quiz is responsive on all device sizes by using [Am I Responsive?]()
 
-### Testing using developer tools
-- Tested using the Lighthouse in Chrome Developer Tools
+### Testing using validator tools
+- Tested using the Lighthouse in Chrome Developer Tools, saw no issues.
+![Lighthouse-MobileQuiz](assets/images/lighthouse-mobilequiz.png)
+![Lighthouse-DesktopQuiz](assets/images/lighthouse-desktopquiz.png)
 
+- Tested using W3C Markup Validation ![W3C Markup Validation](assets/images/pp2-html-validate.png)
+
+- Tested using W3C CSS Validation ![Jigsaw Validation](assets/images/pp2-css-validate.png)
+
+- Tested using Jshint Validation ![Jshint Validation](assets/images/pp2-js-validate.png)
+
+### Manual testing
+Tested on the following devices:
+-
 
 ## Bugs
 - There was a problem with the retry button. I had it set to hidden from the start and to show up when results are displayed. However, it did the complete opposite and showed up the whole time and disappeared when results were show. Got rid of this bug by removing the button for retry inside the div with id of 'results'. I put it under the div instead but still within the div container.
 
-- There was a problem with the background image not showing up on the deployed website.
+- There was a problem with the background image not showing up on the deployed website. I tried changing the picture, the location of the image from css to html. I used the Chrome Developer Tool to find out why it was not showing up. Checked the file path and corrected it and now it works.
 
 ## Deployment
 
