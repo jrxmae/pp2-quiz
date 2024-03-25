@@ -213,6 +213,7 @@ ul {
     }
 }
 
+/* Media screen for tablets and larger */
 @media screen and (min-width: 768px) {
     #hero img {
         width: 31rem;
@@ -268,6 +269,7 @@ ul {
     }
 }
 
+/* Media screen for laptops min width of 1440px */
 @media screen and (min-width: 1440px) {
     body {
         background-size: cover;
