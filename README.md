@@ -74,7 +74,7 @@ You may learn something new along the way. Click [here](https://jrxmae.github.io
 ### Frameworks, Libraries and Programs Used
 - [Google Fonts](https://fonts.google.com/) was used to import specific fonts that would style the quiz better.
 - [Chrome](https://www.google.com/intl/en_uk/chrome/) Developer Tools were used to experiment and test site responsiveness.
-- [Github](https://github.com/) was used to create the repository where all of the commits were pushed to.
+- [GitHub](https://github.com/) was used to create the repository where all of the commits were pushed to.
 - [Gitpod](https://www.gitpod.io/) was used to write, edit and test the code.
 - [W3C Markup](https://validator.w3.org/) was used to validate the HTML file.
 - [Jigsaw validation](https://jigsaw.w3.org/) was used to validate the CSS style file.
@@ -82,13 +82,34 @@ You may learn something new along the way. Click [here](https://jrxmae.github.io
 - [Favicon Generator](https://favicon.io/favicon-converter/#google_vignette/) was where I generated the necessary files from what I downloaded from Icons8.
 - [Icons8](https://icons8.com/icons/set/fire/) was where I found the fire favicon for the website.
 - [Pixabay](https://pixabay.com/) was where I found the images for the background and container of the quiz.
+- [Am I Responsive?](https://ui.dev/amiresponsive/) is what I used for the mockup images of the website.
 
 ## Testing 
 
 ## Bugs
+- There was a problem with the retry button. I had it set to hidden from the start and to show up when results are displayed. However, it did the complete opposite and showed up the whole time and disappeared when results were show. Got rid of this bug by removing the button for retry inside the div with id of 'results'. I put it under the div instead but still within the div container.
 
-## Deployment 
+-
+
+## Deployment
+
+Gitpod and Github were used to do the following:
+- Create a new repository with GitHub using the template from Code Institute for Gitpod.
+- Click on the settings at the menu tab.
+- Locate the 'Pages' tab once you are in.
+- Find 'Source' and make sure you have 'Deploy from a branch' selected. Underneath 'Branch', make sure to change from 'none' to 'main' and that it is set to '/root' beside it.
+- Go back to the code page of your repository and a website link should generate at the top of the page after a few minutes.
 
 ## Acknowledgement
-*
+### Code
+- The template to use for Gitpod came from Code Institute.
+- Stack Overflow and W3Schools helped me to better understand my code and fix it when there were bugs.
+- For the ReadME file, I used my last project as reference as well as a project my mentor sent me as an example [Quiz on coagulation in water treatment](http://un-ihe.org/).
+- Thank you to my mentor Marcel for his constant support throughout my course.
+
+### Content
+- Questions were made solely by me using information gathered from [The Greek Gods and Goddesses](https://www.twinkl.ie/blog/the-greek-gods-and-goddesses-facts-for-kids), [The Greek Gods](https://learningmole.com/the-greek-gods-5-fun-facts-about-the-greek-gods/) and [Gods, Goddesses and Greek Mythology](https://www.britannica.com/list/12-greek-gods-and-goddesses) as well as my own knowledge.
+- Images were taken from [Pixabay](https://pixabay.com/).
+
+
 
