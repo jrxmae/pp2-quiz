@@ -16,6 +16,7 @@ body {
     /* Centers everything in the body on the page */
     display: flex;
     justify-content: center;
+    z-index: 6;
 }
 
 #hero {
