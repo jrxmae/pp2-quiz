@@ -3,7 +3,7 @@ Are you as wise as Athena? Test your knowledge with our quiz!
 
 You may learn something new along the way. Click [here](https://jrxmae.github.io/pp2-quiz/) to take the challenge!
 
-![Quiz mock up images]()
+![Quiz mock up images](assets/images/quiz-mockup.png)
 
 
 ## Table of Contents
@@ -101,7 +101,11 @@ You may learn something new along the way. Click [here](https://jrxmae.github.io
 
 ### Manual testing
 Tested on the following devices:
--
+- Samsung Galaxy S23+
+- Samsung Galaxy Tab S9 FE 10.9"
+- Acer Nitro 5 15.6"
+- Devices available on Chrome Developer Tools
+- Devices on 'Am I Responsive?'
 
 ## Bugs
 - There was a problem with the retry button. I had it set to hidden from the start and to show up when results are displayed. However, it did the complete opposite and showed up the whole time and disappeared when results were show. Got rid of this bug by removing the button for retry inside the div with id of 'results'. I put it under the div instead but still within the div container.
