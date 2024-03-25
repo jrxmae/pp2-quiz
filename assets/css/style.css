@@ -17,15 +17,18 @@ body {
     display: flex;
     justify-content: center;
 }
+
 #hero {
     font-family: 'Graduate', serif;
     color: whitesmoke;
     text-align: center;
 }
+
 #hero img {
     width: 21rem;
     margin-top: 168px;
 }
+
 /* Styling the position and size of the quiz name */
 .quiz-name {
     position: absolute;
@@ -34,6 +37,7 @@ body {
     padding: 5px;
     font-size: 38px;
 }
+
 /* Styling the position of the challenge button */
 #challenge {
     font-family: 'Mate SC', serif;
@@ -43,6 +47,7 @@ body {
     left: 32%;
     z-index: 5;
 }
+
 #instructions {
     background-color: rgba(255, 255, 255, 0.15);
     padding: 28px;
@@ -56,25 +61,29 @@ body {
     height: 355px;
     z-index: 4;
 }
+
 .direction {
     position: relative;
     top: 10px;
     font-size: 32px;
 }
+
 .enjoy {
     position: relative;
     bottom: -30px;
     font-size: 32px;
 }
-#instructions > ol {
+
+#instructions>ol {
     position: relative;
     color: black;
     top: 26px;
 }
+
 #quiz {
     position: absolute;
     text-align: center;
-    background-color: rgba(255, 255,255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
     top: 169px;
     left: 0%;
     right: -6%;
@@ -85,6 +94,7 @@ body {
     padding-top: 49px;
     z-index: 4;
 }
+
 #quiz p {
     top: -38px;
     font-size: 24px;
@@ -92,9 +102,11 @@ body {
     left: -9px;
     padding: 23px;
 }
+
 #quiz li:hover {
     color: white;
 }
+
 #quiz ul {
     margin-top: 10px;
     left: -10px;
@@ -102,15 +114,18 @@ body {
     top: -46px;
     font-size: 22px;
 }
-ul{
+
+ul {
     list-style: none;
 }
+
 #retry {
     font-family: 'Mate SC', serif;
     position: absolute;
     top: 440px;
     left: 10px;
 }
+
 #results {
     position: absolute;
     top: 189px;
@@ -122,8 +137,9 @@ ul{
     font-size: 57px;
     text-align: center;
     line-height: 149px;
-    background-color: rgba(255, 255,255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
 }
+
 #retry {
     font-family: 'Mate SC', serif;
     font-size: 22px;
@@ -131,131 +147,192 @@ ul{
     top: 75%;
     left: 132px;
 }
+
 /* Media screen for larger mobile phones */
 @media screen and (min-width: 375px) {
     #hero img {
-        width: 380px;
-        margin-top: 109px;
+        position: relative;
+        left: -3%;
+        width: 406px;
+        margin-top: 176px;
     }
+
     .quiz-name {
-        top: 2%;
-        left: 0%;
-        font-size: 37px;
+        top: 4%;
+        left: -1%;
+        font-size: 39px;
     }
+
     #instructions {
-        top: 16.5%;
-        left: 0%;
-        height: 406px;
-        line-height: 32px;
+        color: black;
+        top: 176px;
+        left: -4%;
+        height: 430px;
+        line-height: 31px;
+        padding: 59px;
+        background-color: rgba(255, 255, 255, 0.1);
     }
+
+    #challenge {
+        top: 86%;
+        left: 33%;
+    }
+
     #quiz {
-        top: 16.5%;
+        color: black;
+        top: 177px;
         left: 0%;
         right: 0px;
-        height: 406px;
-        line-height: 50px;
+        height: 430px;
+        line-height: 55px;
+        padding: 55px;
         z-index: 3;
+        background-color: rgba(255, 255, 255, 0.1);
     }
-    #challenge {
-        top: 71%;
-        left: 36%;
+
+    #quiz p {
+        color: black;
+        top: -39px;
+        font-size: 21px;
+        padding: 0;
     }
-    #again {
-        top: 128%;
-    }
+
     #results {
-        top: 16.5%;
+        top: 177px;
         left: 0%;
         right: 0%;
+        height: 429px;
         font-size: 56px;
         line-height: 188px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #retry {
+        top: 82%;
+        left: 40%;
     }
 }
+
 @media screen and (min-width: 768px) {
     #hero img {
-        width: 33rem;
-        margin-top: 58px;
+        width: 31rem;
+        margin-top: 72px;
     }
+
     .quiz-name {
-        top: 2%;
-        left: 4%;
+        top: 1%;
+        left: 2%;
         font-size: 37px;
     }
+
     #instructions {
-        top: 9.5%;
+        color: black;
+        top: 73px;
         left: 16%;
-        right: 16%;
-        height: 554px;
-        line-height: 57px;
+        right: 20%;
+        height: 524px;
+        line-height: 47px;
     }
+
+    #challenge {
+        top: 82%;
+        left: 41%;
+    }
+
     #quiz {
-        top: 9.5%;
+        color: black;
+        top: 73px;
         left: 16%;
-        right: 122px;
-        height: 554px;
+        right: 154px;
+        height: 524px;
         line-height: 100px;
         z-index: 3;
     }
-    #challenge {
-        top: 84%;
-        left: 44%;
+
+    #quiz ul {
+        line-height: 51px;
     }
-    #again {
-        top: 128%;
-    }
+
     #results {
-        top: 9.5%;
+        top: 73px;
         left: 16%;
-        right: 16%;
-        height: 554px;
+        right: 20%;
+        height: 524px;
         font-size: 81px;
         line-height: 249px;
     }
+
+    #retry {
+        top: 80%;
+        left: 45%;
+    }
 }
+
 @media screen and (min-width: 1440px) {
     body {
         background-size: cover;
     }
+
     #hero img {
-        width: 49rem;
-        margin-top: 90px;
+        width: 33rem;
+        margin-top: 83px;
     }
+
     .quiz-name {
-        top: 2%;
-        left: 15%;
+        top: 1%;
+        left: 14%;
         font-size: 53px;
     }
+
     #instructions {
-        top: 9.5%;
-        left: 23%;
-        right: 23%;
-        font-size: 25px;
-        height: 826px;
-        line-height: 83px;
+        color: black;
+        top: 12.5%;
+        left: 442px;
+        right: 33%;
+        font-size: 19px;
+        height: 560px;
+        line-height: 45px;
     }
-    #quiz {
-        top: 9.5%;
-        left: 23%;
-        right: 327px;
-        height: 825px;
-        font-size: 35px;
-        line-height: 122px;
-        z-index: 3;
-    }
+
     #challenge {
         top: 84%;
         left: 43%;
-        font-size: 41px;
+        font-size: 34px;
     }
-    #again {
-        top: 138%;
-        font-size: 32px;
+
+    #quiz {
+        color: black;
+        top: 12.5%;
+        left: 442px;
+        right: 475px;
+        height: 558px;
+        line-height: 139px;
+        z-index: 3;
     }
+
+    #quiz p {
+        top: 10%;
+        line-height: 43px;
+        font-size: 37px;
+    }
+
+    #quiz ul {
+        top: 23%;
+        font-size: 42px;
+    }
+
     #results {
-        top: 9.5%;
-        left: 23%;
-        right: 23%;
-        font-size: 133px;
-        line-height: 377px;
+        top: 12.5%;
+        left: 442px;
+        right: 33%;
+        height: 558px;
+        font-size: 63px;
+        line-height: 396px;
+    }
+
+    #retry {
+        top: 79%;
+        left: 45%;
+        font-size: 43px;
     }
 }
