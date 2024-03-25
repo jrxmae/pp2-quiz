@@ -84,7 +84,13 @@ You may learn something new along the way. Click [here](https://jrxmae.github.io
 - [Pixabay](https://pixabay.com/) was where I found the images for the background and container of the quiz.
 - [Am I Responsive?](https://ui.dev/amiresponsive/) is what I used for the mockup images of the website.
 
-## Testing 
+## Testing
+### Testing using responsive tool
+- Checked to make sure the quiz is responsive on all device sizes by using [Am I Responsive?]()
+
+### Testing using developer tools
+- Tested using the Lighthouse in Chrome Developer Tools
+
 
 ## Bugs
 - There was a problem with the retry button. I had it set to hidden from the start and to show up when results are displayed. However, it did the complete opposite and showed up the whole time and disappeared when results were show. Got rid of this bug by removing the button for retry inside the div with id of 'results'. I put it under the div instead but still within the div container.
