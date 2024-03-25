@@ -95,7 +95,7 @@ You may learn something new along the way. Click [here](https://jrxmae.github.io
 ## Bugs
 - There was a problem with the retry button. I had it set to hidden from the start and to show up when results are displayed. However, it did the complete opposite and showed up the whole time and disappeared when results were show. Got rid of this bug by removing the button for retry inside the div with id of 'results'. I put it under the div instead but still within the div container.
 
--
+- There was a problem with the background image not showing up on the deployed website.
 
 ## Deployment
 
